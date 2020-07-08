@@ -1,0 +1,281 @@
+@charset "UTF-8";
+* {
+	/*去除所有元素的默认边距和填充*/
+	margin: 0;
+	padding: 0;
+}
+
+#header {
+	height: 100px;
+
+}
+
+#header .head {
+	width: 1300px;
+	height: 100px;
+	margin: auto;
+	/* 居中*/
+}
+
+#header .head .logo1 {
+	height: 90px;
+	float: left;
+}
+
+#header .head .logo2 {
+	height: 90px;
+	width: 90px;
+	padding-left: 40px;
+	float: left;
+}
+
+#header .head .search {
+	height: 40px;
+	width: 500px;
+	float: left;
+	margin-top: 25px;
+	margin-left: 150px;
+	border-color: red;
+	border-radius: 6px;
+	border: 2px solid #C09B4B;
+
+}
+
+#header .head .search #searchput {
+	height: 30px;
+	width: 390px;
+	margin-top: 5px;
+	margin-left: 5px;
+	border: 0px;
+	outline: none;
+	font-size: 15px;
+	float: left;
+}
+
+#header .head .search #searchbtn {
+	height: 44px;
+	width: 105px;
+	border: 0px;
+	text-align: center;
+	color: white;
+	background-color: #C09B4B;
+	border-radius: 6px;
+	font-family: "楷体";
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: -2px;
+	outline: none;
+}
+
+#header .loginuser {
+	height: 50px;
+	width: 110px;
+	float: left;
+	margin-top: 35px;
+	margin-left: 50px;
+	background-color: #F8F8F8;
+}
+
+#header .loginuser img {
+	height: 40px;
+	margin-top: 2px;
+	margin-left: 3px;
+	float: left;
+}
+
+#header .loginuser a {
+	color: black;
+	text-decoration: none;
+	height: 20px;
+	font-size: 12px;
+	text-align: center;
+	margin-left: 15px;
+
+}
+
+#header .buycar {
+	height: 50px;
+	width: 120px;
+	float: left;
+	margin-top: 35px;
+	margin-left: 20px;
+	background-color: #F8F8F8;
+}
+
+#header .buycar img {
+	height: 40px;
+	margin-top: 2px;
+	margin-left: 3px;
+	float: left;
+}
+
+#header .buycar a {
+	color: black;
+	text-decoration: none;
+	height: 20px;
+	font-size: 12px;
+	text-align: center;
+	margin-left: 15px;
+}
+#index {
+	height: 40px;
+	background-color: #C09B4B;
+}
+
+#index .zhuti {
+	width: 1300px;
+	height: 40px;
+	margin: auto;
+
+}
+
+#index .zhuti .text {
+	background-color: #C09B8A;
+	width: 230px;
+	height: 40px;
+	text-align: center;
+	/* 水平居中*/
+	line-height: 40px;
+	/* 上下居中 */
+	font-family: 楷体;
+	float: left;
+
+}
+
+#index .zhuti .example {
+	padding-left: 40px;
+	text-align: center;
+	/* 水平居中*/
+	line-height: 40px;
+	/* 上下居中 */
+	font-family: 楷体;
+	float: left;
+}
+
+#index .zhuti .example .nav {
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+	margin: 0 25px;
+}
+#orderadd{
+	height: 50px;
+}
+#orderadd #add{
+	width: 1300px;
+	height: 50px;
+	margin: auto;
+	padding-top: 20px;
+}
+#orderadd #add a{
+	text-decoration: none;
+	color: #888888;
+}
+
+#mainer{
+	height: 800px;
+}
+#mainer #main{
+	height: 800px;
+	width: 1300px;
+	margin: auto;
+	
+}
+#mainer #main .right{
+	height: 800px;
+	width: 1050px;
+	margin: auto;
+	
+}
+#mainer #main .right .rtop{
+	height: 40px;
+	border-bottom: 1px solid #CCCCCC;
+	padding-left: 20px;
+	line-height: 40px;
+	font-size: 26px;
+	font-family: 楷体;
+	font-weight: bold;
+}
+
+#mainer #main .right .r2{
+	height: 200px;
+	
+}
+#mainer #main .right .r2 .r2coll{
+	height: 30px;
+	border-bottom: 1px solid red;
+	padding-top: 10px;
+	padding-left: 30px;
+	font-size: 18px;
+	font-family: 楷体;
+	color: gray;
+}
+#mainer #main .right .r2 .r2coll a{
+	padding-left: 15px;
+	text-decoration: none;
+	color: red;
+	font-size: 16px;
+}
+#mainer #main .right .r2 .r2long{
+	height: 20px;
+	border-bottom: 2px dashed #CCCCCC;
+	padding-bottom: 10px;
+}
+#mainer #main .right .r2 .r2long .r2name{
+	width: 175px;
+	text-align: center;
+	float: left;
+}
+#mainer #main .right .r2 .roller{
+	border-bottom:2px dashed #CCCCCC;
+	height: 450px; 
+	overflow: auto;
+}
+#mainer #main .right .r2 .roller table tr td{
+		width: 1300px;
+		height: 40px;
+		margin-top: 10px;
+		border-bottom: 2px dashed #C09B8A;
+		margin-bottom: 5px;
+		text-align: center;
+}
+#mainer #main .right .r2 .readybuy{
+	margin-left: 900px;
+	height: 10px;
+	height: 44px;
+	width: 105px;
+	border: 0px;
+	
+	text-align: center;
+	color: white;
+	background-color: #C09B4B;
+	border-radius: 6px;
+	font-family: "楷体";
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 5px;
+	outline: none;
+}
+#bottom {
+	height: 250px;
+	background: #000000;
+	margin: auto;
+}
+
+#bottom .con {
+	width: 1500px;
+	height: 200px;
+	margin: auto;
+	
+}
+
+#bottom .con .yewu {
+	width: 802px;
+	float: left;
+}
+
+#bottom .con .guanyu {
+	float: left;
+	padding-left: 100px;
+
+}

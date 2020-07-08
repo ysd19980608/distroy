@@ -1,0 +1,431 @@
+* {
+	/*去除所有元素的默认边距和填充*/
+	margin: 0;
+	padding: 0;
+}
+
+#header {
+	height: 100px;
+
+}
+
+#header .head {
+	width: 1300px;
+	height: 100px;
+	margin: auto;
+	/* 居中*/
+}
+
+#header .head .logo1 {
+	height: 90px;
+	float: left;
+}
+
+#header .head .logo2 {
+	height: 90px;
+	width: 90px;
+	padding-left: 40px;
+	float: left;
+}
+
+#header .head .search {
+	height: 40px;
+	width: 500px;
+	float: left;
+	margin-top: 25px;
+	margin-left: 150px;
+	border-color: red;
+	border-radius: 6px;
+	border: 2px solid #C09B4B;
+
+}
+
+#header .head .search #searchput {
+	height: 30px;
+	width: 390px;
+	margin-top: 5px;
+	margin-left: 5px;
+	border: 0px;
+	outline: none;
+	font-size: 15px;
+	float: left;
+}
+
+#header .head .search #searchbtn {
+	height: 44px;
+	width: 105px;
+	border: 0px;
+	text-align: center;
+	color: white;
+	background-color: #C09B4B;
+	border-radius: 6px;
+	font-family: "楷体";
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: -2px;
+	outline: none;
+}
+
+#header .loginuser {
+	height: 25px;
+	width: 110px;
+	float: left;
+	margin-top: 35px;
+	margin-left: 50px;
+	background-color: #F8F8F8;
+}
+
+#header .loginuser img {
+	height: 20px;
+	margin-top: 2px;
+	margin-left: 3px;
+	float: left;
+}
+
+#header .loginuser a {
+	color: black;
+	text-decoration: none;
+	height: 20px;
+	font-size: 12px;
+	text-align: center;
+	margin-left: 15px;
+
+}
+
+#header .buycar {
+	height: 25px;
+	width: 110px;
+	float: left;
+	margin-top: 35px;
+	margin-left: 20px;
+	background-color: #F8F8F8;
+}
+
+#header .buycar img {
+	height: 20px;
+	margin-top: 2px;
+	margin-left: 3px;
+	float: left;
+}
+
+#header .buycar a {
+	color: black;
+	text-decoration: none;
+	height: 20px;
+	font-size: 12px;
+	text-align: center;
+	margin-left: 15px;
+}
+#header .login button{
+	height: 25px;
+	width: 50px;
+	margin-top: 5px;
+	margin-left: 20px;
+	background-color: #F8F8F8;
+	outline: none;
+	border-radius: 6px;
+	font-size: 12px;
+}
+#index {
+	height: 40px;
+	background-color: #C09B4B;
+}
+
+#index .zhuti {
+	width: 1300px;
+	height: 40px;
+	margin: auto;
+
+}
+
+#index .zhuti .text {
+	background-color: #C09B8A;
+	width: 230px;
+	height: 40px;
+	text-align: center;
+	/* 水平居中*/
+	line-height: 40px;
+	/* 上下居中 */
+	font-family: 楷体;
+	float: left;
+
+}
+
+#index .zhuti .example {
+	padding-left: 40px;
+	text-align: center;
+	/* 水平居中*/
+	line-height: 40px;
+	/* 上下居中 */
+	font-family: 楷体;
+	float: left;
+}
+
+#index .zhuti .example .nav {
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+	margin: 0 25px;
+}
+
+#banner {
+	height: 500px;
+
+}
+
+#banner .ban {
+	width: 1300px;
+	height: 500px;
+	margin: auto;
+}
+
+#banner .ban .kind {
+	width: 230px;
+	height: 500px;
+	float: left;
+	border-bottom: 3px solid #C09B8A;
+	border-right: 3px solid #C09B8A;
+	border-left: 3px solid #C09B8A;
+}
+
+#banner .ban .kind .wenxue {
+	width: 230px;
+	height: 100px;
+	border-bottom: 1px dashed #A9A9A9;
+	/* 设置下虚线*/
+	padding-left: 10px;
+	/* 设置文字左边距*/
+
+}
+#banner .ban .kind .wenxue  a{
+	padding-left: 3px;/* 设置文字左边距*/
+	color: black;
+	text-decoration: none;
+	font-size: 15px;
+	color: #666666;
+}
+
+#banner .ban .kind .other {
+	width: 230px;
+	height: 43px;
+	border-bottom: 1px dashed #A9A9A9;
+	/* 设置下虚线*/
+	text-align: center;
+	/* 水平居中*/
+	line-height: 40px;
+	/* 上下居中 */
+
+}
+
+#banner .ban .kind .other .nav {
+	text-decoration: none;
+	color: black;
+	font-size: 15px;
+	margin: 0 10px;
+}
+
+#banner .ban .kind .other .more {
+	text-decoration: none;
+	/* 去除下划线*/
+	color: #DB2A41;
+	font-size: 15px;
+	margin: 0 10px;
+}
+
+#banner .ban .lunbotu {
+	width: 1050px;
+	/* background-color: #ADFF2F; */
+	height: 500px;
+	border-bottom: 3px solid #C09B8A;
+	border-right: 3px solid #C09B8A;
+	border-left: 3px solid #C09B8A;
+	float: left;
+	position: relative;
+	/* 为了定位右下角的小框框*/
+}
+
+#banner .ban .lunbotu img {
+	width: 1050px;
+	height: 500px;
+}
+
+#banner .ban .lunbotu ul {
+	position: absolute;
+	right: 20px;
+	bottom: 10px;
+
+
+}
+
+#banner .ban .lunbotu ul li {
+	width: 20px;
+	height: 20px;
+	background: red;
+	opacity: 0.6;
+	/* 设置透明度*/
+	float: left;
+	list-style: none;
+	/* 列表style去掉 就是去掉小圆点*/
+	text-align: center;
+	line-height: 30px;
+	margin: 0 2px;
+	border-radius: 20px;
+	/* 让边框变成圆形 */
+
+}
+
+#banner .ban .lunbotu .on {
+	background: white;
+	opacity: 0.6;
+	/* 设置透明度*/
+}
+#hoter{
+	height: 300px;
+	
+} 
+#hoter #hot{
+	margin: auto;
+	height: 200px;
+	width: 1300px;
+	
+}
+#hoter #hot .fire {
+	width: 1300px;
+	height: 40px;
+	margin-top: 10px;
+	border-bottom: 2px solid #C09B8A;
+}
+#hoter #hot .fire img{
+	width: 20px;
+	margin-left: 100px;
+	float: left;
+}
+#hoter #hot .fire font{
+	line-height: 40px;
+	margin-left: 20px;
+	font-size: 25px;
+	font-family: 楷体;
+	font-weight: bold;
+}
+#hoter #hot .hotbook{
+	margin-top: 10px;
+	border: 5px solid orange;
+	border-radius: 20px;
+	width: 1300px;
+	height: 230px;
+	position: relative;
+	overflow: hidden; 
+}
+#hoter #hot .hotbook .ul1 {
+	position: absolute;
+	left: 0px;
+}
+#hoter #hot .hotbook .ul1 li{
+	list-style: none;
+	width: 200px;
+	height: 200px;
+	margin: 20px;
+	float: left;
+}
+#hoter #hot .hotbook .ul1 li img{
+	width: 100%;
+	height: 100%;
+}
+#gooder{
+	height: 620px;
+	margin-top: 20px;
+}
+#gooder #good{
+	margin: auto;
+	height: 600px;
+	width: 1300px;
+	
+}
+#gooder #good .good{
+	width: 1300px;
+	height: 40px;
+	margin-top: 10px;
+	border-bottom: 2px solid #C09B8A;
+	margin-bottom: 5px;
+}
+#gooder #good .good font{
+	line-height: 40px;
+	margin-left: 20px;
+	font-size: 25px;
+	font-family: 楷体;
+	font-weight: bold;
+}
+#gooder #good .good img{
+	width: 40px;
+	margin-left: 100px;
+	margin-top: -5px;
+	float: left;
+	
+}
+#gooder #good .goodbook {
+	width: 255px;
+	height: 280px;
+	border: 1px solid #A9A9A9;
+	float: left;
+	text-align: center;
+}
+#gooder #good .goodbook a{
+	text-decoration: none;
+	
+}
+#gooder #good .goodbook img{
+	width: 250px;
+	height: 200px;
+	margin-top: 10px;
+}
+#gooder #good .goodbook .font1{
+	font-size: 15px;
+	color: #666666;
+}
+#gooder #good .goodbook .font2{
+	font-size: 20px;
+	color: red;
+	font-weight: bold;
+	line-height: 50px
+}
+#gooder #good .goodbook .font3{
+	font-size: 20px;
+	color: #666666;
+	text-decoration: line-through;
+}
+#base {
+	width: 100%;
+	height: 50px;
+	background: darkgray;
+}
+
+#base .mg {
+	color: white;
+	margin: 0 0 0 1500px;
+	line-height: 50px;
+	/*为了让文字上下居中！*/
+}
+
+#bottom {
+	height: 250px;
+	background: #000000;
+	margin: auto;
+}
+
+#bottom .con {
+	width: 1500px;
+	height: 200px;
+	margin: auto;
+	padding-top: 50px;
+}
+
+#bottom .con .yewu {
+	width: 802px;
+	float: left;
+}
+
+#bottom .con .guanyu {
+	float: left;
+	padding-left: 100px;
+
+}

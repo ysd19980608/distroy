@@ -1,0 +1,430 @@
+* {
+	/*去除所有元素的默认边距和填充*/
+	margin: 0;
+	padding: 0;
+}
+
+#header {
+	height: 100px;
+
+}
+
+#header .head {
+	width: 1300px;
+	height: 100px;
+	margin: auto;
+	/* 居中*/
+}
+
+#header .head .logo1 {
+	height: 90px;
+	float: left;
+}
+
+#header .head .logo2 {
+	height: 90px;
+	width: 90px;
+	padding-left: 40px;
+	float: left;
+}
+
+#header .head .search {
+	height: 40px;
+	width: 500px;
+	float: left;
+	margin-top: 25px;
+	margin-left: 150px;
+	border-color: red;
+	border-radius: 6px;
+	border: 2px solid #C09B4B;
+
+}
+
+#header .head .search #searchput {
+	height: 30px;
+	width: 390px;
+	margin-top: 5px;
+	margin-left: 5px;
+	border: 0px;
+	outline: none;
+	font-size: 15px;
+	float: left;
+}
+
+#header .head .search #searchbtn {
+	height: 44px;
+	width: 105px;
+	border: 0px;
+	text-align: center;
+	color: white;
+	background-color: #C09B4B;
+	border-radius: 6px;
+	font-family: "楷体";
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: -2px;
+	outline: none;
+}
+
+#header .loginuser {
+	height: 25px;
+	width: 110px;
+	float: left;
+	margin-top: 35px;
+	margin-left: 50px;
+	background-color: #F8F8F8;
+}
+
+#header .loginuser img {
+	height: 20px;
+	margin-top: 2px;
+	margin-left: 3px;
+	float: left;
+}
+
+#header .loginuser a {
+	color: black;
+	text-decoration: none;
+	height: 20px;
+	font-size: 12px;
+	text-align: center;
+	margin-left: 15px;
+
+}
+
+#header .buycar {
+	height: 25px;
+	width: 110px;
+	float: left;
+	margin-top: 35px;
+	margin-left: 20px;
+	background-color: #F8F8F8;
+}
+
+#header .buycar img {
+	height: 20px;
+	margin-top: 2px;
+	margin-left: 3px;
+	float: left;
+}
+
+#header .buycar a {
+	color: black;
+	text-decoration: none;
+	height: 20px;
+	font-size: 12px;
+	text-align: center;
+	margin-left: 15px;
+}
+#index {
+	height: 40px;
+	background-color: #C09B4B;
+}
+
+#index .zhuti {
+	width: 1300px;
+	height: 40px;
+	margin: auto;
+
+}
+
+#index .zhuti .text {
+	background-color: #C09B8A;
+	width: 230px;
+	height: 40px;
+	text-align: center;
+	/* 水平居中*/
+	line-height: 40px;
+	/* 上下居中 */
+	font-family: 楷体;
+	float: left;
+
+}
+
+#index .zhuti .example {
+	padding-left: 40px;
+	text-align: center;
+	/* 水平居中*/
+	line-height: 40px;
+	/* 上下居中 */
+	font-family: 楷体;
+	float: left;
+}
+
+#index .zhuti .example .nav {
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+	margin: 0 25px;
+}
+
+#mainer{
+	height: 900px;
+	margin: auto;
+	
+}
+#mainer #main{
+	margin: auto;
+	height: 900px;
+	width: 1300px;
+	
+}
+#mainer #main #sanmekind{
+	width: 230px;
+	height: 854px;
+	border: 1px solid gainsboro;
+	float: left;
+}
+#mainer #main #sanmekind .samefont{
+	width: 230px;
+	height: 40px;
+	border-bottom: 5px solid red;
+	text-align: center;
+}
+#mainer #main #sanmekind .samefont font{
+	font-size: 25px;
+	font-family: "楷体";
+	font-weight: bold;
+	line-height: 40px;
+}
+#mainer #main #sanmekind .book{
+	width: 230px;
+	height: 100px;
+	border-bottom: 1px solid gainsboro;
+}
+#mainer #main #sanmekind .same{
+	text-decoration: none;
+	color: black;
+}
+#mainer #main #sanmekind .same img{
+	height: 100px;
+	float: left;
+}
+#mainer #main #sanmekind .same .money{
+	color: red;
+	font-size: 20px;
+	
+}
+#mainer #main #sanmekind .same .money2{
+	color: gray;
+	text-decoration: line-through;
+}
+#mainer #main #introd{
+	height: 854px;
+	width: 1060px;
+	float: left;
+}
+#mainer #main #introd .bookspace{
+	height: 500px;
+}
+
+
+#mainer #main #introd .bookspace .bookimg{
+	border: 1px solid gainsboro;
+	height: 300px;
+	width: 300px;
+	float: left;
+	margin-top: 20px;
+}
+#mainer #main #introd .bookspace .bookimg .mark{
+	background-color: white;
+	width: 150px;
+	height: 150px;
+	opacity: 0.5;		/* 透明度 */
+	filter: alpha(opacity=50);/* 透明度 */
+	position: absolute;
+	left: 0;
+	top: 0;
+	display: none;
+}
+#mainer #main #introd .bookspace .bookimgbig{
+	width: 300px;
+	height: 300px;
+	position: absolute;
+	left: 850px;
+	top: 150px;
+	border: 1px solid #CCCCCC;
+	border-radius: 5px;
+	overflow: hidden;
+	display: none;
+}
+#mainer #main #introd .bookspace .bookimgbig img{
+	width: 600px;
+	height: 660px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+#mainer #main #introd .bookspace .bookimg img{
+	height: 100%;
+}
+
+#mainer #main #introd .bookspace .bookfont{
+	margin-top: 20px;
+	height: 100px;
+	width: 800px;	
+	
+}
+#mainer #main #introd .bookspace .bookfont .bookname{
+	font-size: 30px;
+	font-weight: bold;
+	padding-left: 20px;
+}
+#mainer #main #introd .bookspace .share{
+	width: 300px;
+	height: 150px;
+	float: left;
+	margin-top: 50px;
+	margin-left: -300px;
+	
+}
+#mainer #main #introd .bookspace .share .more{
+	height: 34px;
+	width: 105px;
+	border: 0px;
+	margin-left: 80px;
+	margin-bottom: 20px;
+	margin-top: 10px;
+	text-align: center;
+	color: black;
+	background-color: #C09B4B;
+	border-radius: 6px;
+	font-family: "楷体";
+	font-size: 21px;
+	font-weight: bold;
+	outline: none;
+}
+#mainer #main #introd .bookspace .share font{
+	padding-left: 80px;
+}
+#mainer #main #introd .bookspace .share img{
+	width: 20px;
+}
+#mainer #main #introd .bookspace .share .input{
+	height: 34px;
+	width: 105px;
+	border: 0px;
+	margin-left: 80px;
+	margin-top: 20px;
+	text-align: center;
+	color: black;
+	background-color: gainsboro;
+	border: 1px solid gray;
+	border-radius: 6px;
+	font-family: "楷体";
+	font-size: 18px;
+	outline: none;
+}
+#mainer #main #introd .bookspace .buy{
+	width: 600px;
+	height: 50px;
+	margin-top: 50px;
+	margin-left: 100px;
+	float: left;
+	
+}
+#mainer #main #introd .bookspace .buy button{
+	width: 20px;
+	
+}
+#mainer #main #introd .bookspace .buy #num{
+	width: 20px;
+	height: 20px;
+}
+#mainer #main #introd .bookspace  .buycar{
+	width: 150px;
+	height: 40px;
+	margin-left: 400px;
+	background-color: red;
+	border-radius: 8px;
+	
+}
+#mainer #main #introd .bookspace  .buycar img{
+	width: 25px;
+	height: 25px;
+	padding-left: 5px;
+	padding-top: 5px;
+}
+#mainer #main #introd .bookspace .buycar button{
+	height: 34px;
+	width: 105px;
+	border: 0px;
+	text-align: center;
+	color: white;
+	background-color: red;
+	border-radius: 6px;
+	font-family: "楷体";
+	line-height: 40px;
+	font-size: 18px;
+	outline: none;
+}
+#mainer #main #introd .fontsize{
+	margin: 20px;
+}
+#mainer #main #introd .fontsize .topid{
+	font-size: 20px;
+	font-family: "楷体";
+	font-weight: bold;
+	height: 40px;
+	line-height: 40px;
+	width: 150px;
+	padding-left: 50px;
+	background-color: gainsboro;
+	border-top: 5px solid red;
+	border-radius: 8px;
+}
+#mainer #main #introd .fontsize .topabout{
+	padding-top: 20px;
+}
+#bottom {
+	height: 250px;
+	background: #000000;
+	margin: auto;
+}
+
+#bottom .con {
+	width: 1500px;
+	height: 200px;
+	margin: auto;
+	padding-top: 50px;
+}
+
+#bottom .con .yewu {
+	width: 802px;
+	float: left;
+}
+
+#bottom .con .guanyu {
+	float: left;
+	padding-left: 100px;
+}
+
+#float {
+	width: 100px;
+	height: 200px;
+	background-color: black;
+	position: absolute;
+	top: 400px;
+	left:-100px;
+	border-radius: 5px;
+}
+#float .btn{
+	width: 80px;
+	height: 40px;
+	margin-top: 15px;
+	margin-left: 10px;
+	border-radius: 8px;
+	background-color: black;
+	color: white;
+	font-size: 18px;
+	font-family: "楷体";
+}
+#float span {
+	width: 20px;
+	height: 60px;
+	background-color: orange;
+	position: absolute;
+	left: 100px;
+	top: 70px;
+	border-radius: 5px;
+}

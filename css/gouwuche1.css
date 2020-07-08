@@ -1,0 +1,233 @@
+* {
+	/*去除所有元素的默认边距和填充*/
+	margin: 0;
+	padding: 0;
+}
+
+#header {
+	height: 80px;
+
+}
+
+#header .head {
+	width: 1300px;
+	height: 80px;
+	margin: auto;
+	/* 居中*/
+}
+
+#header .head .logo1 {
+	height: 80px;
+	float: left;
+}
+
+#header .head .logo2 {
+	height: 60px;
+	width: 60px;
+	padding-left: 40px;
+	float: left;
+}
+
+#longred {
+	height: 60px;
+}
+
+#longred #long {
+	width: 1300px;
+	height: 60px;
+	margin: auto;
+	margin-top: 10px;
+}
+
+#longred #long .mybycar {
+	background-color: #C09B4B;
+	line-height: 50px;
+	width: 300px;
+	height: 50px;
+	font-size: 30px;
+	font-weight: bold;
+	color: white;
+	font-family: "楷体";
+	float: left;
+}
+
+#longred #long .mybycar img {
+	width: 30px;
+	margin-top: 10px;
+	margin-left: 40px;
+}
+
+#longred #long #arrow {
+	width: 0px;
+	height: 0px;
+	float: left;
+	border-top: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-bottom: 25px solid transparent;
+	border-left: 25px solid #C09B4B;
+}
+
+#buyer {
+	height: 500px;
+}
+
+#buyer .buy {
+	height: 500px;
+	width: 1300px;
+	margin: auto;
+	border: 1px solid #D9D9D9;
+	border-radius: 5px;
+	background-color: #F9F9F9;
+}
+#buyer .buy .buytab{
+	margin-top: 10px;
+	margin-left:20px ;
+	height: auto;
+	width: 1250px;
+	border: 2px solid #cccccc;
+}
+#buyer .buy .buytab tr th{
+	color: white;
+	background-color: #C09B4B;
+	font-size: 22px;
+	font-family: "楷体";
+}
+#againer {
+	height: 100px;
+}
+
+#againer .again {
+	height: 100px;
+	width: 1300px;
+	margin: auto;
+}
+
+#againer .again button {
+	margin-top: 40px;
+	height: 40px;
+	width: 140px;
+	border: 0px;
+	text-align: center;
+	color: white;
+	background-color: #C09B4B;
+	border-radius: 4px;
+	font-family: "楷体";
+	font-size: 22px;
+	font-weight: bold;
+
+	outline: none;
+}
+#againer .again .readbuy{
+	margin-left: 800px;
+}
+#gooder {
+	height: 620px;
+	margin-top: 20px;
+}
+
+#gooder #good {
+	margin: auto;
+	height: 600px;
+	width: 1300px;
+
+}
+
+#gooder #good .good {
+	width: 1300px;
+	height: 40px;
+	margin-top: 10px;
+	border-bottom: 2px solid #C09B8A;
+	margin-bottom: 5px;
+}
+
+#gooder #good .good font {
+	line-height: 40px;
+	margin-left: 20px;
+	font-size: 25px;
+	font-family: 楷体;
+	font-weight: bold;
+}
+
+#gooder #good .good img {
+	width: 40px;
+	margin-left: 100px;
+	margin-top: -5px;
+	float: left;
+
+}
+
+#gooder #good .goodbook {
+	width: 255px;
+	height: 280px;
+	border: 1px solid #D9D9D9;
+	border-radius: 5px;
+	float: left;
+	text-align: center;
+}
+
+#gooder #good .goodbook a {
+	text-decoration: none;
+
+}
+
+#gooder #good .goodbook img {
+	width: 250px;
+	height: 200px;
+	margin-top: 10px;
+}
+
+#gooder #good .goodbook .font1 {
+	font-size: 15px;
+	color: #666666;
+}
+#gooder #good .goodbook button{
+	width: 100px;
+	border: 1px solid #CCCCCC;
+	text-align: center;
+	color: white;
+	background-color: red;
+	border-radius: 4px;
+	font-family: "楷体";
+	font-size: 22px;
+	font-weight: bold;
+	
+	outline: none;
+}
+
+#gooder #good .goodbook .font2 {
+	font-size: 20px;
+	color: red;
+	font-weight: bold;
+	line-height: 50px
+}
+
+#gooder #good .goodbook .font3 {
+	font-size: 20px;
+	color: #666666;
+	text-decoration: line-through;
+}
+
+#bottom {
+	height: 250px;
+	background: #000000;
+	margin-top: 100px;
+}
+
+#bottom .con {
+	width: 1500px;
+	height: 200px;
+	margin: auto;
+	padding-top: 50px;
+}
+
+#bottom .con .yewu {
+	width: 802px;
+	float: left;
+}
+
+#bottom .con .guanyu {
+	float: left;
+	padding-left: 100px;
+
+}
+
